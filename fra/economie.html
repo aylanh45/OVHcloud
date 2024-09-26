@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="mes_styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="../mes_styles.css" rel="stylesheet">
     <title>Acceuil</title>
 </head>
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   <header>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Logo_OVH.svg" href="/home/aylanh/Documents/Scolaire/S1/SAE/SAE1-05.06/Site V1/acceuil.html" width="400px">
-        <a href="acceuil.html" >Acceuil</a>
-        <a href="economie.html" >Economie</a>
-        <a href="histoire.html" >Histoire</a>
-        <a href="environnement.html" >Environnement</a>
-      </nav>
-  </header>
-
-    <script src="bootstrap/css/bootstrap.js"></script>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img src="../pics/Logo_OVH2.jpg" width="400"  alt="OVHcloud Logo" class="navbar-brand">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Economie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="histoire.html">Histoire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="environnement.html">Environnement</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Langues
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../eng/economy.html">English 🇬🇧</a></li>
+                            <li><a class="dropdown-item" href="#">Français 🇫🇷</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
   <footer>
     @ OVHcloud 2024 Groupe 7
   </footer>
