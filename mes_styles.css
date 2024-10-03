@@ -5,12 +5,10 @@ header
     margin: 0;
     padding: 0;
     position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
-.container-fluid
-{
-    position: fixed;
-}
 
 .navbar-nav .nav-item {
     margin-left: 40px;
@@ -19,6 +17,11 @@ header
 .nav-link dropdown-toggle
 {
     margin-right: 0;
+}
+
+.nav-item-dropdown
+{
+    margin-left: 60px;
 }
 
 header nav .container-fluid {
