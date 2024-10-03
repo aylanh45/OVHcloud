@@ -1,7 +1,7 @@
 header
 {
 
-    background-color: rgb(240, 240, 240);
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
@@ -58,7 +58,7 @@ header a
 }
 footer
 {
-    background-color: blue;
+    background-color: #0050d7;
     color: aliceblue;
     text-align: center;
     margin: 0;
@@ -89,12 +89,12 @@ nav
 
 footer
 { 
-    background:#0400ff;
+    background:#0050d7;
     position:static; 
     bottom:0; 
     width:100%; 
     padding: top 50%;;
-    background-color: blue;
+    background-color: #0050d7;
     color: aliceblue;
     text-align: center;
     margin: 0;
@@ -123,4 +123,9 @@ body{
 }
 .spacer{
     flex-grow: 1;
+}
+
+.map
+{
+    align-items: right;
 }
