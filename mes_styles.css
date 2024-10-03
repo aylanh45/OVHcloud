@@ -7,6 +7,11 @@ header
     position: fixed;
 }
 
+.container-fluid
+{
+    position: fixed;
+}
+
 .navbar-nav .nav-item {
     margin-left: 40px;
 }
