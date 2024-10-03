@@ -105,9 +105,13 @@ footer
     padding: top 50%;;
     background-color: #0050d7;
     color: aliceblue;
-    text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.text
+{
+    text-align: center;
 }
 
 h5
@@ -130,11 +134,24 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .spacer{
     flex-grow: 1;
 }
 
 .map
 {
-    align-items: right;
+    text-align: right;
+    margin-right: 20%;
+}
+
+.contact img
+{
+    margin-left: 1%;
+}
+
+.contact
+{
+    text-align: left;
+    margin-left: 20%;
 }
