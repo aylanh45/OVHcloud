@@ -14,5 +14,5 @@ Etudiant 4 : [FANNY Moustapha](mailto:mfanny@edu.univ-fcomte.fr?subject=SAE_1_05
 # Présentation du projet
 
 Notre projet est de créer un site internet mettant en valeur l'impact économique, environnemental ainsi que l'histoire de la société OVHcloud.
-Ce site sera sous forme de vitrine et disposera également d'une traduction en angalais.
+Ce site sera sous forme de vitrine et disposera également d'une traduction en anglais.
 
