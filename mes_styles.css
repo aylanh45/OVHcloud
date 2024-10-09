@@ -7,6 +7,8 @@ header
     position: fixed;
     z-index: 1;
     width: 100%;
+    box-shadow: 8px 5px 5px rgb(66, 66, 66);
+    z-index: 5;
 }
 
 
@@ -65,24 +67,12 @@ header a
 {
     padding: 0;
 }
-footer
-{
-    background-color: #0050d7;
-    color: aliceblue;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
 
 body, html
 {
     height:100%;
 } 
 
-body
-{ 
-    text-align:center; 
-}   
 
 nav
 {
@@ -96,7 +86,7 @@ nav
     position:relative; 
 }   
 
-footer
+footer 
 { 
     background:#0050d7;
     position:static; 
@@ -135,14 +125,23 @@ body{
     flex-direction: column;
 }
 
-.spacer{
+.spacer
+{
     flex-grow: 1;
 }
 
 .map
 {
+    flex: right;
     text-align: right;
-    margin-right: 20%;
+    margin-right: 10%;
+}
+
+.map h6
+{
+    text-align: right;
+    margin-right: 14%;
+    margin-top: 3%;
 }
 
 .contact img
@@ -152,6 +151,22 @@ body{
 
 .contact
 {
+    flex: left;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 300;
 }
+
+.contact svg
+{
+    margin-top: 10px;
+    font-size: 300;
+}
+
+.signature
+{
+    text-align: center;
+    justify-content: end;
+}
+
