@@ -9,7 +9,7 @@ header
     width: 100%;
     box-shadow: 8px 5px 5px rgb(66, 66, 66);
     z-index: 5;
-    color: #FFFFFF;
+    color: #012E40;
 }
 
 .spacer-top
@@ -93,12 +93,12 @@ nav
 
 footer 
 { 
-    background:#0050d7;
+    background:#012E40;
     position:static; 
     bottom:0; 
     width:100%; 
     padding: top 50%;;
-    background-color: #0050d7;
+    background-color: #012E40;
     color: aliceblue;
     margin: 0;
     justify-content: center;
