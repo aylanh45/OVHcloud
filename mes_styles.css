@@ -137,11 +137,10 @@ body{
     flex-grow: 1;
 }
 
-.map h6
+footer h6
 {
     text-align: center;
-    margin-right: 14%;
-    margin-top: 3%;
+    margin-top: 100px;
 }
 
 .réseaux img
@@ -188,11 +187,7 @@ body{
 
 iframe
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex: content;
+    margin-top: 40px;
     width: 50%;
     height: 500px;
 
