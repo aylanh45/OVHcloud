@@ -1,7 +1,7 @@
 header
 {
 
-    background-color: #f0f0f0;
+    background-color: #012E40;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -9,8 +9,13 @@ header
     width: 100%;
     box-shadow: 8px 5px 5px rgb(66, 66, 66);
     z-index: 5;
+    color: #FFFFFF;
 }
 
+.spacer-top
+{
+    margin: 38px;
+}
 
 .navbar-nav .nav-item {
     margin-left: 40px;
@@ -96,6 +101,8 @@ footer
     background-color: #0050d7;
     color: aliceblue;
     margin: 0;
+    justify-content: center;
+    align-items: center;
     padding: 0;
 }
 
@@ -132,14 +139,15 @@ body{
 
 .map
 {
-    flex: right;
-    text-align: right;
+    flex: content;
     margin-right: 10%;
+    width: 100%;
+    height: auto;
 }
 
 .map h6
 {
-    text-align: right;
+    text-align: center;
     margin-right: 14%;
     margin-top: 3%;
 }
@@ -152,16 +160,17 @@ body{
 .contact
 {
     flex: left;
-    text-align: left;
-    margin-left: 10%;
+    text-align: center;
     margin-top: 5%;
-    font-size: 300;
+    font-size: 500;
 }
 
 .contact svg
 {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 300;
+    margin-right: 20px;
+    width: 20%;
 }
 
 .signature
@@ -170,3 +179,26 @@ body{
     justify-content: end;
 }
 
+#lkd
+{
+    margin-top: 20px;
+}
+
+#X
+{
+    margin-top: 0;
+}
+
+#ytb
+{
+    margin-top: 25px;
+}
+
+iframe
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
