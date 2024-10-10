@@ -137,14 +137,6 @@ body{
     flex-grow: 1;
 }
 
-.map
-{
-    flex: content;
-    margin-right: 10%;
-    width: 100%;
-    height: auto;
-}
-
 .map h6
 {
     text-align: center;
@@ -152,22 +144,22 @@ body{
     margin-top: 3%;
 }
 
-.contact img
+.réseaux img
 {
     margin-left: 1%;
 }
 
-.contact
+.réseaux
 {
     flex: left;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 500;
 }
 
-.contact svg
+.réseaux svg
 {
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 300;
     margin-right: 20px;
     width: 20%;
@@ -200,5 +192,8 @@ iframe
     justify-content: center;
     align-items: center;
     align-content: center;
+    flex: content;
+    width: 50%;
+    height: 500px;
 
 }
