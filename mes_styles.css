@@ -9,7 +9,35 @@ header
     width: 100%;
     box-shadow: 8px 5px 5px rgb(66, 66, 66);
     z-index: 5;
-    color: #012E40;
+}
+
+.navbar.navbar-expand-lg.bg-light
+{
+    background-color: transparent !important;
+}
+
+.navbar
+{
+    --bs-navbar-color: #FFFFFF;
+    --bs-navbar-hover-color: #3CA6A6;
+    --bs-navbar-active-color: #3CA6A6;
+    --bs-navbar-brand-color: #FFFFFF;
+    --bs-navbar-brand-hover-color: #FFFFFF;
+}
+
+.navbar-toggler
+{
+    --bs-navbar-toggler-border-color: #FFFFFF;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+}
+
+.navbar-toggler.collapse
+{
+
+}
+header a
+{
+    z-index: 10;
 }
 
 .spacer-top
@@ -137,6 +165,11 @@ body{
     flex-grow: 1;
 }
 
+h6
+{
+    font-size: large;
+}
+
 footer h6
 {
     text-align: center;
@@ -153,26 +186,19 @@ footer h6
     flex: left;
     text-align: center;
     margin-top: 3%;
-    font-size: 500;
+    font-size: 800;
 }
 
 .réseaux svg
 {
-    margin-top: 20px;
     font-size: 300;
     margin-right: 20px;
     width: 20%;
 }
 
-.signature
-{
-    text-align: center;
-    justify-content: end;
-}
-
 #lkd
 {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 #X
@@ -182,13 +208,14 @@ footer h6
 
 #ytb
 {
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 iframe
 {
-    margin-top: 40px;
+    margin-top: 60px;
     width: 50%;
     height: 500px;
+    margin-bottom: 60px;
 
 }
