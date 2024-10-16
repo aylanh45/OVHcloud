@@ -15,6 +15,23 @@ header
     z-index: 5;
 }
 
+.p-3.mb-2.bg-cyan.text-white
+{
+    display: flex;
+    margin: 0;
+}
+
+.p-3
+{
+    padding: 2px !important;
+}
+
+.navbar.navbar-expand-lg.bg-light
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .navbar-nav.me-auto.mb-2.mb-lg-0
 {
     text-align: left;
