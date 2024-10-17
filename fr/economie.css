@@ -189,7 +189,8 @@ nav
     align-items: center;
     background:url('../pics/image-économique.jpg');
     padding:40px;
-    color:white
+    color:white;
+    box-shadow: 8px 5px 5px #1d5050;
 }
 .image-économie>h1{
     font-size:50px;

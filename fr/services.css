@@ -1,4 +1,22 @@
 
+.image-services{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background:url('../pics/image-économique.jpg');
+    padding:100px;
+    color:white;
+    margin-bottom: 30px;
+    box-shadow: 8px 5px 5px #1d5050;
+}
+.image-services>h1{
+    font-size:50px;
+    z-index: 5;
+}
+.image-services>h4{
+    border-bottom: 1px solid white;
+}
+
 .window-container{
     display: flex;
     flex-direction: column;
@@ -234,7 +252,7 @@ header a
 
 .spacer-top
 {
-    margin: 80px;
+    margin: 68px;
 }
 
 .navbar-nav .nav-item {
