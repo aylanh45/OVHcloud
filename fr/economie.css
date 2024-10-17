@@ -156,7 +156,7 @@ header a
 {
     text-decoration: none;
     color: black;
-    font-style: Arial, sans-serif;
+    font-style: verdana, sans-serif;
     
 }
 
@@ -194,7 +194,7 @@ nav
 }
 .image-économie>h1{
     font-size:50px;
-    font-family: 'Verdana';
+    font-family: 'Verdana', sans-serif;
 }
 .image-économie>h4{
     border-bottom: 1px solid white;
@@ -212,7 +212,7 @@ nav
     margin-top:20px;
     font-size: 15px;
     background-color:#F2E3D5;
-    font-family: 'Verdana';
+    font-family: 'Verdana', sans-serif;
     color:black;
 }
 .image-économie .boutton button:hover{
