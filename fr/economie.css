@@ -294,14 +294,42 @@ body{
     font-family: 'verdana', sans-serif;
 }
 .textual-content .content .box3 .image img{
-    margin-right: 400px;
-    height: 300px;
-    width: 500px;
+    margin-right: 300px;
+    height: 400px;
+    width: 600px;
     margin-top:15px;
     margin-bottom: 15px;
     box-shadow: 8px 5px 5px #1d5050;
 }
-
+.rapport{
+    color: black;
+    font-size: 20px;
+    margin-left: 75%
+}
+.basrapport a{
+    margin-left: 77%;
+    color: #3CA6A6;
+    font-weight: bold;
+    object-fit: cover;
+    text-decoration: underline;
+}
+.basrapport a:hover{
+    color: #024959;
+}
+.rapport{
+    width: 400px;
+    height:300px;
+}
+#bouttonrevenir{
+    background-color: #3CA6A6;
+    padding:1%;
+    font-size:30px;
+    border: none;
+}
+#bouttonrevenir:hover{
+    background-color: #026773;
+    text-decoration: underline;
+}
 
 
 
