@@ -204,8 +204,9 @@ nav
     padding: 10px 20px;
 }
 .image-économie .boutton button{
-    border:none;
-    padding:8px 20px;
+    border:white;
+    border-radius: 25px;
+    padding:8px 10px;
     margin-right: 40px;
     margin-left: 40px;
     margin-top:20px;
@@ -214,6 +215,12 @@ nav
     font-family: 'Verdana';
     color:black;
 }
+.image-économie .boutton button:hover{
+    background-color: rgb(179, 179, 179);
+    border:black;
+    padding: 12px;
+}
+
 .main{
     margin-top:40px;
     display:flex;
@@ -278,6 +285,7 @@ nav
     margin-top:15px;
     margin-bottom: 15px;
 }
+
 
 
 
