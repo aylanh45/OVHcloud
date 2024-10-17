@@ -13,21 +13,17 @@
     font-size:50px;
     z-index: 5;
 }
-.image-services>h4{
-    border-bottom: 1px solid white;
-}
 
 .window-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-
     height: 150vh;
     margin: 10px;
     margin-top: 5px;
-    background-color: #F2E3D5;
-
+    background-color: #18929f;
+    border-radius: 8px;
     position: relative;
     top: 0;
     left: 0;
@@ -37,11 +33,11 @@
 .window{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 35%;
     height: 300px;
     border-radius: 8px;
     background-color: #ddd;
-
+    margin: 20px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
