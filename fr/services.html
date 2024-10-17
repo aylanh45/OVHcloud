@@ -3,9 +3,235 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="services.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <title>OVHcloud</title>
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     
-</body>
-</html>
+    <header>
+        <div class="p-3 mb-2 bg-cyan text-white">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a href="../index.html">
+                        <img src="../pics/LogoOVH2.jpg" width="400" style="border-radius: 5px;" alt="OVHcloud Logo" class="navbar-brand">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a id="1" class="nav-link" href="../index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="1" class="nav-link active" aria-current="page" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="1" class="nav-link" href="economie.html">Economie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="1" class="nav-link" href="histoire.html">Histoire</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="1" class="nav-link" href="environnement.html">Environnement</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a id="1" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Langues</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../en/economy.html">English 🇬🇧</a></li>
+                                    <li><a class="dropdown-item" href="#">Français 🇫🇷</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="spacer-top"></div>
+    <div class="image-services">       
+        <h1>Les services de OVHcloud</h1>
+    </div>
+    <div class="textual-content">
+        <div class="window-container flex">
+            <div class="window">
+                <div class="title">
+                    <h1>Services Cloud</h1>
+                    <div style="text-align: center">
+                        <button onclick="location.href='#services-cloud'">Voir plus</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>Cloud public</li>
+                        <li>Cloud privé</li>
+                        <li>Cloud hybride</li>
+                        <li>Bid data</li>
+                        <li>Machine learning</li>
+                        <li>Internet des objets</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="window">
+                <div class="title">
+                    <h1>Hébergement</h1>
+                    <div style="text-align: center">
+                        <button onclick="location.href='#hebergement'">Voir plus</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>Hébergement mutualisé</li>
+                        <li>Serveurs dédiés</li>
+                        <li>Hébergement cloud</li>
+                        <li>Enregistrement de domaines</li>
+                        <li>Certificats SSL</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="window">
+                <div class="title">
+                    <h1>Sécurité</h1>
+                    <div style="text-align: center">
+                        <button onclick="location.href='#securite'">Voir plus</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>Protection DDoS</li>
+                        <li>Pare-feu</li>
+                        <li>Surveillance et Audit</li>
+                        <li>Sauvegarde en ligne</li>
+                        <li>Réplication et archivage</li>
+                    </ul>
+                </div>
+            </div>
+</div>
+</div>
+<div class="text">
+<div class="content">
+    <section id="services-cloud"></section>
+        <div class="card1">
+          <div class="left" >
+            <h1>Services cloud</h1>
+            <li>Cloud public</li>
+            <p>Le cloud public d’OVHcloud permet aux utilisateurs d’accéder à une infrastructure partagée, offrant une grande scalabilité et une tarification à la consommation. Cela permet aux entreprises de réduire leurs coûts en n’ayant à payer que pour les ressources qu’elles utilisent. Les solutions incluent des machines virtuelles, du stockage d’objets et des bases de données gérées, le tout accessible via une interface conviviale.</p>
+            <li>Cloud privé</li>
+            <p>Le cloud privé d’OVHcloud fournit un environnement dédié aux entreprises qui ont des exigences strictes en matière de sécurité et de conformité. Cette solution offre un contrôle total sur l’infrastructure, permettant de personnaliser les ressources selon les besoins spécifiques. Elle est particulièrement adaptée aux secteurs sensibles, comme la finance ou la santé, où la protection des données est primordiale.</p>
+            <li>Cloud hybride</li>
+            <p>La solution de cloud hybride combine les avantages des clouds public et privé, permettant aux entreprises de déplacer des charges de travail entre les deux environnements selon leurs besoins. Cela offre une flexibilité maximale, en permettant aux utilisateurs de gérer des données sensibles en privé tout en profitant de l’évolutivité du cloud public pour des applications moins critiques.</p>
+            <li>Big data</li>
+            <p>OVHcloud propose des solutions adaptées au traitement et à l’analyse de grandes quantités de données, essentielles pour les entreprises qui souhaitent tirer parti de l'intelligence des données. Ces services permettent de stocker, traiter et analyser des volumes massifs d'informations avec des outils dédiés et des architectures optimisées.</p>
+            <li>Machine learning</li>
+            <p>Avec des infrastructures spécialement conçues pour le machine learning, OVHcloud offre des environnements propices au développement et au déploiement de modèles d'intelligence artificielle. Les utilisateurs peuvent facilement accéder à des ressources de calcul performantes et à des outils de data science pour créer des algorithmes avancés.</p>
+            <li>Internet des objets</li>
+            <p>Les solutions IoT d’OVHcloud permettent aux entreprises de gérer et de traiter les données générées par les dispositifs connectés. Cela inclut des outils pour l’analyse des données en temps réel, ainsi que des services de stockage et de sécurité adaptés à la gestion des flux d’informations provenant des objets connectés.</p>
+        </div>
+        </div>
+      <section id="hebergement"></section>
+        <div class="card2">
+            <div class="left" >
+              <h1>Hébergement</h1>
+              <li>Hébergement mutualisé</li>
+              <p>L’hébergement mutualisé d’OVHcloud est une solution économique, idéale pour les petits sites web et les projets personnels. Les ressources (serveur, espace de stockage, bande passante) sont partagées entre plusieurs utilisateurs, ce qui réduit les coûts. OVHcloud propose des interfaces simples pour la gestion de site, permettant même aux débutants de se lancer facilement.</p>
+              <li>Serveurs dédiés</li>
+              <p>Les serveurs dédiés d’OVHcloud s’adressent aux entreprises ayant des besoins spécifiques en matière de performance et de contrôle. Chaque serveur est entièrement réservé à un seul client, offrant ainsi des performances optimales et la possibilité de configurer le système d’exploitation et les applications selon les besoins. C'est idéal pour les sites à fort trafic ou les applications gourmandes en ressources.</p>
+              <li>Hébergement cloud</li>
+              <p>L’hébergement cloud d’OVHcloud combine la flexibilité et la scalabilité d’un environnement cloud avec les fonctionnalités d’hébergement traditionnelles. Les utilisateurs peuvent ajuster rapidement les ressources selon leurs besoins, ce qui est parfait pour les projets en croissance ou les campagnes saisonnières. L’accès instantané à des ressources supplémentaires permet de gérer efficacement les pics de trafic.</p>
+              <li>Enregistrement de domaines</li>
+              <p>OVHcloud offre un service d’enregistrement de domaines qui permet aux utilisateurs de choisir parmi une vaste sélection d’extensions. La gestion des domaines est simplifiée grâce à un tableau de bord intuitif, offrant des fonctionnalités telles que le transfert de domaine, la gestion des DNS et la configuration des redirections.</p>
+              <li>Certificats SSL</li>
+              <p>La sécurité des échanges de données est essentielle, et OVHcloud propose des certificats SSL pour protéger les sites web. Ces certificats garantissent que les informations sensibles sont cryptées lors de leur transmission, renforçant ainsi la confiance des utilisateurs et améliorant le référencement sur les moteurs de recherche.</p>
+              </div>
+        </div>
+      <section id="securite"></section>
+        <div class="card3"></div>
+            <div class="left" >
+              <h1>Sécurité</h1>
+              <li>Protection DDoS</li>
+              <p>OVHcloud met en place des solutions avancées de protection contre les attaques DDoS (Distributed Denial of Service). Ces services détectent et neutralisent les menaces en temps réel, assurant ainsi la disponibilité des sites et des applications. La protection est intégrée à l’infrastructure, ce qui minimise les interruptions de service et garantit une expérience utilisateur fluide.</p>
+              <li>Pare-feu</li>
+              <p>Les pare-feu proposés par OVHcloud permettent de sécuriser le trafic entrant et sortant des infrastructures. Ils filtrent les connexions indésirables et protègent contre les menaces potentielles, garantissant ainsi un environnement sécurisé pour les applications et les données. Les utilisateurs peuvent configurer des règles spécifiques selon leurs besoins de sécurité.</p>
+              <li>Surveillance et audit</li>
+              <p>OVHcloud offre des outils de surveillance et d’audit qui permettent aux entreprises de garder un œil sur l’activité de leurs systèmes en temps réel. Ces outils aident à détecter les anomalies et à générer des rapports détaillés, facilitant ainsi la gestion de la sécurité et la conformité aux réglementations.</p>
+              <li>Sauvegarde en ligne</li>
+              <p>Les services de sauvegarde en ligne d’OVHcloud offrent une protection automatique des données critiques. Les utilisateurs peuvent planifier des sauvegardes régulières et restaurer facilement des fichiers en cas de perte de données. Cela constitue une assurance supplémentaire pour la continuité des activités.</p>
+              <li>Réplication et archivage</li>
+              <p>OVHcloud propose également des solutions de réplication et d'archivage, permettant aux entreprises de synchroniser leurs données sur plusieurs sites et de stocker des informations moins fréquemment utilisées à long terme. Ces services assurent la continuité et la disponibilité des données tout en optimisant l'utilisation de l'espace de stockage.</p>
+              </div>
+        </div>
+  </section>
+
+    </div>
+    </div>
+
+    <div class="spacer"></div>
+    <footer>
+        <div class="réseaux">
+          <h6>Retrouvez nous</h6>
+          <a href="https://www.linkedin.com/company/ovhgroup/" target="_blank">
+            <svg id="lkd" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256">
+              <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                <g transform="scale(8.53333,8.53333)">
+                  <path
+                    d="M9,25h-5v-15h5zM6.501,8c-1.383,0 -2.501,-1.121 -2.501,-2.501c0,-1.38 1.12,-2.499 2.501,-2.499c1.378,0 2.499,1.121 2.499,2.499c0,1.38 -1.121,2.501 -2.499,2.501zM27,25h-4.807v-7.3c0,-1.741 -0.033,-3.98 -2.499,-3.98c-2.503,0 -2.888,1.896 -2.888,3.854v7.426h-4.806v-15.011h4.614v2.051h0.065c0.642,-1.18 2.211,-2.424 4.551,-2.424c4.87,0 5.77,3.109 5.77,7.151c0,0 0,8.233 0,8.233z">
+                  </path>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/ovhcom/" target="_blank">
+          <svg id="fbk" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+            height="100" viewBox="0,0,256,256">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+              font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <g transform="scale(8.53333,8.53333)">
+                <path
+                  d="M12,27v-12h-4v-4h4v-2.148c0,-4.067 1.981,-5.852 5.361,-5.852c1.619,0 2.475,0.12 2.88,0.175v3.825h-2.305c-1.435,0 -1.936,0.757 -1.936,2.291v1.709h4.205l-0.571,4h-3.634v12z">
+                </path>
+              </g>
+            </g>
+          </svg>
+          </a>
+          <a href="https://x.com/OVHcloud" target="_blank">
+            <svg id="X" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
+            </g>
+          </g>
+            </svg>
+        </a>
+        <a href="https://www.youtube.com/channel/UCGl9Y5S09EX-3lLfAdWsW_A" target="_blank">
+          <svg id="ytb" xmlns="http://www.w3.org/2000/svg" x="0px"
+            y="0px" width="50" height="50" viewBox="0,0,256,256">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+              font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <g transform="scale(5.12,5.12)">
+                <path
+                  d="M44.89844,14.5c-0.39844,-2.19922 -2.29687,-3.80078 -4.5,-4.30078c-3.29687,-0.69922 -9.39844,-1.19922 -16,-1.19922c-6.59766,0 -12.79687,0.5 -16.09766,1.19922c-2.19922,0.5 -4.10156,2 -4.5,4.30078c-0.40234,2.5 -0.80078,6 -0.80078,10.5c0,4.5 0.39844,8 0.89844,10.5c0.40234,2.19922 2.30078,3.80078 4.5,4.30078c3.5,0.69922 9.5,1.19922 16.10156,1.19922c6.60156,0 12.60156,-0.5 16.10156,-1.19922c2.19922,-0.5 4.09766,-2 4.5,-4.30078c0.39844,-2.5 0.89844,-6.10156 1,-10.5c-0.20312,-4.5 -0.70312,-8 -1.20312,-10.5zM19,32v-14l12.19922,7z">
+                </path>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <div class="map">
+          <h6>Siège de OVHcloud<br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2527.5182720056428!2d3.1991602762532083!3d50.69176626995969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c329321f8efbd5%3A0xb9abd6815a1c6e06!2sOVHcloud!5e0!3m2!1sfr!2sfr!4v1727432153321!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <h6>@ OVHcloud 2024 Groupe 7 - Aylan Haddouchi</h6><br>
+    </footer>
+    </body>
+    </html>
+    
