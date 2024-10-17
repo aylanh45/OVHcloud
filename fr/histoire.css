@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Verdana', sans-serif;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body{
     padding: 20px;
     background-color: #fff;
     border-radius: 6px;
-    box-shadow: 8px 5px 5px #1d5050.
+    box-shadow: 8px 5px 5px #1d5050; 
 }
 
 .content p{
@@ -25,7 +25,7 @@ body{
 
 .content h2{
     letter-spacing: 2px;
-    color: #F2E3D5;
+    color: #012E40;
 }
 
 
