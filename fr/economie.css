@@ -183,7 +183,7 @@ nav
     position:relative; 
 }
 body{
-    background-color: #F2E3D5;
+    background-color: #1d5050;
 } 
 
 
@@ -238,11 +238,11 @@ body{
 .box1, .box2, .box3{
     margin-top:200px;
 }
-.textual-content .content .box1{
+.content .box1{
     display:flex;
     margin-bottom:20px;
 }
-.textual-content .content .box1 .texte{
+.box1 .texte{
     margin-left: 180px;
     padding:20px;
     background-color: #024959;
@@ -251,41 +251,40 @@ body{
     font-family: 'verdana', sans-serif;
 }
 
-.textual-content .content .box1 .image img{
+.box1 .image img{
     margin-right: 300px;
     height: 450px;
     width: 600px;
     margin-top:15px;
     margin-bottom: 15px;
-    box-shadow: 8px 5px 5px #1d5050;
+    box-shadow: 8px 5px 5px #F2E3D5;
 }
 
-.textual-content .content .box2{
+.box2{
     display:flex;
     margin-bottom:20px;
 }
-.textual-content .content .box2 .image img{
+.box2 .image img{
     margin-left: 300px;
     height: 450px;
     width: 600px;
     margin-top:15px;
     margin-bottom: 15px;
-    box-shadow: 8px 5px 5px #1d5050;
+    box-shadow: 8px 5px 5px #F2E3D5;
 }
-.textual-content .content .box2 .texte{
+.box2 .texte{
     margin-right:180px;
-    padding:20px;
     background-color: #024959;
     color:#F2E3D5;
     font-size: 23px;
     font-family: 'verdana', sans-serif;
 }
-.textual-content .content .box3{
+.box3{
     display:flex;
     justify-content: center;
     margin-bottom:20px;
 }
-.textual-content .content .box3 .texte{
+.box3 .texte{
     margin-left: 180px;
     padding:20px;
     background-color: #024959;
@@ -293,33 +292,66 @@ body{
     font-size: 23px;
     font-family: 'verdana', sans-serif;
 }
-.textual-content .content .box3 .image img{
+.box3 .image img{
     margin-right: 300px;
     height: 400px;
     width: 600px;
     margin-top:15px;
     margin-bottom: 15px;
-    box-shadow: 8px 5px 5px #1d5050;
+    box-shadow: 8px 5px 5px #F2E3D5;
+}
+.basrapport{
+    margin-top: 300px;
 }
 .rapport{
     color: black;
     font-size: 20px;
-    margin-left: 75%
+    margin-right: 50px;
+    width: 400px;
+    height:300px;
 }
-.basrapport a{
-    margin-left: 77%;
+.basrapport .content_bas .box4 a{
+    
     color: #3CA6A6;
     font-weight: bold;
     object-fit: cover;
     text-decoration: underline;
 }
-.basrapport a:hover{
+.basrapport .content_bas .box4 a:hover{
     color: #024959;
 }
-.rapport{
-    width: 400px;
-    height:300px;
+
+.textual-content_bas{ 
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+    font-family: 'Verdana', sans-serif;
 }
+
+.box4{
+    display:flex;
+    
+}
+
+.content_bas .box4 .texte{
+    background-color: #024959;
+    color:#F2E3D5;
+    font-size: 23px;
+    font-family: 'verdana', sans-serif;
+    margin-right: 100px;
+}
+.content_bas .box4 .image img{
+    margin-left: 100px;
+    height: 450px;
+    width: 600px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    box-shadow: 8px 5px 5px #F2E3D5;
+}
+
+
+
+
 #bouttonrevenir{
     background-color: #3CA6A6;
     padding:1%;
