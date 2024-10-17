@@ -4,13 +4,13 @@
 }
 
 body{
-    margin: 20px;
+    
     background-color: rgb(24, 146, 159);
     min-height: 100%;
 }
 
 .content{
-    padding: 20px;
+    padding: 10px;
     background-color: #fff;
     border-radius: 6px;
 }
