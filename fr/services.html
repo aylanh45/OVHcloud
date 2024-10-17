@@ -10,9 +10,9 @@
     <title>OVHcloud</title>
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+  crossorigin="anonymous"></script>
     <header>
 
       <div class="p-3 mb-2 bg-cyan text-white">
@@ -58,6 +58,7 @@
           </div>
         </header>
         <div class="spacer-top"></div>
+        <button onclick="topFunction()" id="topbtn" title="Va en haut de la page">Haut</button> 
     <div class="image-services">       
     <h1>Les services de OVHcloud</h1>
     </div>
@@ -69,9 +70,19 @@
         <div class="title">
             <h1>Services Cloud</h1>
             <div>
-                <button class="btn">Voir plus</button> 
-            </div>
-        </div>
+              <div class="wrap">
+              <div id="advanced-filter" class="advanced-filter">
+                <button class="advanced-filter-button" id="advanced-filter-button">Voir plus</button>
+                <div class="filter-panel">
+                  <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                  <div class="actions">
+                    <button id="close" class="close">Cancel</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+              </div>
         <div class="content">
         <li>Stockage et Sauvegarde</li>
         <li>Cloud public</li>
@@ -177,5 +188,47 @@
   </div>
   <h6>@ OVHcloud 2024 Groupe 7 - Aylan Haddouchi</h6><br>
 </footer>
+<script>
+  (function(d) {
+    "use strict";
+    if ("querySelector" in document && "addEventListener" in window) {
+      var theFilter = d.querySelector("#advanced-filter-button");
+      var theFilterParent = d.querySelector("#advanced-filter");
+      var closeButton = d.querySelector("#close");
+      theFilter.addEventListener(
+        "click",
+        function(e) {
+          theFilterParent.classList.toggle("open-filter");
+        },
+        false
+      );
+  
+      closeButton.addEventListener(
+        "click",
+        function(e) {
+          theFilterParent.classList.toggle("open-filter");
+        },
+        false
+      );
+    }
+  })(document);
+
+  let mybutton = document.getElementById("topbtn");
+
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    } 
+    </script>
 </body>
 </html>

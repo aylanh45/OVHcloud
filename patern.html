@@ -5,63 +5,188 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link href="../mes_styles.css" rel="stylesheet">
+    <link href="patern.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <title>OVHcloud</title>
 </head>
 <body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <img src="../pics/LogoOVH1.jpg" width="400"  alt="OVHcloud Logo" class="navbar-brand">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <script src="patern.js"></script> 
+  <script>
+    (function(d) {
+      "use strict";
+      if ("querySelector" in document && "addEventListener" in window) {
+        var theFilter = d.querySelector("#advanced-filter-button");
+        var theFilterParent = d.querySelector("#advanced-filter");
+        var closeButton = d.querySelector("#close");
+        theFilter.addEventListener(
+          "click",
+          function(e) {
+            theFilterParent.classList.toggle("open-filter");
+          },
+          false
+        );
+    
+        closeButton.addEventListener(
+          "click",
+          function(e) {
+            theFilterParent.classList.toggle("open-filter");
+          },
+          false
+        );
+      }
+    })(document);
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+  crossorigin="anonymous"></script>
+  <button onclick="topFunction()" id="topbtn" title="Va en haut de la page">Haut</button> 
+    <header>
+
+      <div class="p-3 mb-2 bg-cyan text-white">
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid"></div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services-eng.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Economy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="history.html">History</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="environnement-eng.html">Environnement</a>
-                    </li>
-                    <li class="nav-item-dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Languages
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">English 🇬🇧</a></li>
-                            <li><a class="dropdown-item" href="../fra/economie.html">Français 🇫🇷</a></li>
-                        </ul>
-                    </li>
-                </ul>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <a href="../index.html">
+                      <img src="../pics/LogoOVH2.jpg" width="400" style="border-radius: 5px;" alt="OVHcloud Logo" class="navbar-brand"></a>
+                      <li class="nav-item">
+                          <a id="1" class="nav-link" href="../index.html">Accueil</a>
+                      </li>
+                      <li class="nav-item">
+                          <a id="1" class="nav-link active" aria-current="page" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                          <a id="1" class="nav-link" href="economie.html">Economie</a>
+                      </li>
+                      <li class="nav-item">
+                          <a id="1" class="nav-link" href="histoire.html">Histoire</a>
+                      </li>
+                      <li class="nav-item">
+                          <a id="1" class="nav-link" href="environnement.html">Environnement</a>
+                      </li>
+                      <li class="nav-item-dropdown">
+                          <a id="1" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Langues
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="../en/economy.html">English 🇬🇧</a></li>
+                              <li><a class="dropdown-item" href="#">Français 🇫🇷</a></li>
+                          </ul>
+                      </li>
+                      </ul>
+                  </ul>
+              </div>
             </div>
+          </nav>
+          </div>
+        </header>
+        <div class="spacer-top"></div>
+
+        <div class="wrap">
+          <div id="advanced-filter" class="advanced-filter">
+            <button class="advanced-filter-button" id="advanced-filter-button">Adv Filter</button>
+            <div class="filter-panel">
+              <p>Filter Content Goes here</p>
+              <div class="actions">
+                <button class="apply">Apply</button>
+                <button id="close" class="close">Cancel</button>
+              </div>
+            </div>
+          </div>
+          <table class="table-data">
+            <thead>
+              <tr>
+                <th>Testing</th>
+                <th>Testing</th>
+                <th>Testing</th>
+                <th>Testing</th>
+                <th>Testing</th>
+                <th>Testing</th>
+                <th>Testing</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-    </nav>
-</header>
-<div class="spacer-top"></div>
-<div class="textual-content">
-<h1>Services offered bu OVHcloud</h1><br>
-<h3>Cloud Services</h3>
-<li>Storage and backup</li>
-<li>Public cloud</li>
-<li>Private cloud</li><br>
-<h3>Hosting</h3>
-<li>VPS</li>
-<li>Dedicated servers: Games, servers accessible by region...</li><br>
-<h3>Sécurity</h3>
-<li>Network security</li>
-</div>
+        
+        
 <div class="spacer"></div>
 <footer>
   <div class="réseaux">
@@ -121,5 +246,32 @@
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
   </div>
-  <h6>@ OVHcloud 2024 Groupe 7 - Aylan Haddouchi></h6>
+  <h6>@ OVHcloud 2024 Groupe 7 - Aylan Haddouchi</h6><br>
 </footer>
+<script>
+  (function(d) {
+    "use strict";
+    if ("querySelector" in document && "addEventListener" in window) {
+      var theFilter = d.querySelector("#advanced-filter-button");
+      var theFilterParent = d.querySelector("#advanced-filter");
+      var closeButton = d.querySelector("#close");
+      theFilter.addEventListener(
+        "click",
+        function(e) {
+          theFilterParent.classList.toggle("open-filter");
+        },
+        false
+      );
+  
+      closeButton.addEventListener(
+        "click",
+        function(e) {
+          theFilterParent.classList.toggle("open-filter");
+        },
+        false
+      );
+    }
+  })(document);
+  </script>
+</body>
+</html>

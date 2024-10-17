@@ -1,5 +1,135 @@
+html
+{
+    font-style: verdana, sans-serif;
+}
 
-.image-services{
+.table-data
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+
+.advanced-filter
+{
+    position: relative;
+}
+
+.filter-panel
+{
+    position: absolute;
+    width: 100%;
+    z-index: 98;
+    top: 50%;
+    opacity: 0;
+    background: #fff;
+    transition: opacity 1s ease, border 1s ease, left 0s 1s;
+    min-height: 100px;
+    border: 3px solid #000000;
+    padding: 10px 10px 2em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.open-filter .filter-panel
+{
+    left: 0;
+    opacity: 1;
+    transition: opacity 1s ease, border 1s ease;
+}
+
+.advanced-filter-button
+{
+    background: #18929f;
+    color: #000000;
+    padding: 3px 10px;
+    border: 2px solid #18929f31;
+    border-radius: 8px;
+    margin: 0 0 10px auto;
+    width: 150px;
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.open-filter .advanced-filter-button
+{
+    background: #fff;
+    border-bottom: none;
+    padding: 3px 10px 6px;
+    color: #000;
+    outline: 0;
+}
+
+.actions
+{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.close
+{
+    background: transparent;
+    color: #000;
+    padding: 3px 0;
+    margin:0 10px;
+    border: none;
+    cursor: pointer;
+}
+
+ .close:hover, .close:focus
+ {
+    border-bottom: 1px solid #000;
+  
+}
+
+.apply
+{
+    background: #18929f;
+    color: #fff;
+    padding: 3px 10px;
+    border: 3px solid #18929f31;
+    cursor: pointer;
+}
+
+.apply:hover, .apply:focus
+{
+    background: #f00;
+    border-color: #f000;
+}
+
+
+
+
+
+
+
+
+#topbtn
+{
+    display: none;
+    position: sticky;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 98;
+    border: 2px #000000; 
+    outline: none;
+    background-color: r#18929f;
+    color: #faebd7;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+  
+  #topbtn:hover
+  {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+
+.image-services
+{
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -9,12 +139,15 @@
     margin-bottom: 20px;
     box-shadow: 8px 5px 5px #1d5050;
 }
-.image-services>h1{
+
+.image-services>h1
+{
     font-size:50px;
     z-index: 5;
 }
 
-.window-container{
+.window-container
+{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -29,8 +162,8 @@
     left: 0;
 }
 
-
-.window{
+.window
+{
     display: flex;
     flex-direction: column;
     width: 35%;
@@ -41,7 +174,8 @@
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
-.window .title{
+.window .title
+{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -56,7 +190,8 @@
     border-top-right-radius: 8px;
 }
 
-.window .content{
+.window .content
+{
     padding: 10px;
     overflow-y: auto;
     line-height: 1.5;
@@ -138,7 +273,6 @@ a {
 
 header
 {
-
     background-color: #012E40;
     margin: 0;
     padding: 0;
@@ -242,7 +376,7 @@ header a
 
 .spacer-top
 {
-    margin: 68px;
+    margin: 50px;
 }
 
 .navbar-nav .nav-item {
