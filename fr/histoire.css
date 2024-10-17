@@ -106,7 +106,7 @@ body{
     top: 22px;
     z-index: 1;
     right: 30px;
-    border: medium solid antiquewhite;
+    border: medium solid #faebd7;
     border-width: 10px 0px 10px 10px;
     border-color: transparent transparent transparent #fff;
 }
