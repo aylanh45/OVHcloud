@@ -6,28 +6,24 @@
     background:url('../pics/image-économique.jpg');
     padding:100px;
     color:white;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     box-shadow: 8px 5px 5px #1d5050;
 }
 .image-services>h1{
     font-size:50px;
     z-index: 5;
 }
-.image-services>h4{
-    border-bottom: 1px solid white;
-}
 
 .window-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-
     height: 150vh;
     margin: 10px;
-    margin-top: 5px;
-    background-color: #F2E3D5;
-
+    margin-top: 0px;
+    background-color: #18929f;
+    border-radius: 8px;
     position: relative;
     top: 0;
     left: 0;
@@ -37,11 +33,11 @@
 .window{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 35%;
     height: 300px;
     border-radius: 8px;
     background-color: #ddd;
-
+    margin: 20px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
@@ -67,10 +63,25 @@
     text-align: justify;
 }
 
+.content
+{
+    margin: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: x-large;
+    list-style: inside;
+    line-height: 3;
+}
 
+.content li
+{
+    padding: 5px;
+}
 
-
-
+body
+{
+    background-color: #faebd7;
+}
 
 
 
@@ -85,29 +96,28 @@ strong{
 
 
 
+.boutton button:hover{
+    background-color: #ba3f32;
+    border:black;
+    padding: 12px;
+}
 
 
 .btn{
     display: inline-block;
-    width: 60px;
+    width: 120px;
     height: 30px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.162);
+    background-color: #0000005e;
     text-align: center;
     font-weight: bold;
 }
-.btn.close{
+.btn{
     background-color: #3CA6A6;
 }
-.btn.minimize{
-    background-color: #f1c40f;
-}
 
-.btn.close:hover{
+.btn:hover{
     background-color: #ba3f32;
-}
-.btn.minimize:hover{
-    background-color: #a48610;
 }
 
 
@@ -121,26 +131,6 @@ h1{
 .window-container.flex{
     height: unset;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 a {
     text-decoration: none;
@@ -400,7 +390,7 @@ footer h6
 .réseaux a
 {
     font-size: 300;
-    margin-right: 60px;
+    margin-right:margin 60px;
     margin-left: 60px;
 }
 
@@ -414,6 +404,9 @@ footer h6
 .réseaux h6
 {
     margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
 }
 
 .réseaux a
