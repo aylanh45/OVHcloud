@@ -15,7 +15,7 @@ body{
     padding: 20px;
     background-color: #fff;
     border-radius: 6px;
-    shadow-box: 4px;
+    box-shadow: 8px 5px 5px #1d5050.
 }
 
 .content p{
