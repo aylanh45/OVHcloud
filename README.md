@@ -1,93 +1,100 @@
-# OVHcloud_sae
+# Site présentation OVH 
+
+## OVHcloud
+
+[OVHcloud](https://aylanh45.github.io/OVHcloud/)
+
+## Membres du groupe :
+
+Etudiant 1 (référent du groupe) :  [HADDOUCHI Aylan](mailto:ahaddou2@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 2 : [FOUCAULT Nathan](mailto:nfoucaul@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
+Etudiant 3 : [DEMLING Alexandre](mailto:ademling@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 4 : [FANNY Moustapha](mailto:mfanny@edu.univ-fcomte.fr?subject=SAE_1_05_06)
+
+# Présentation du projet
+
+Notre projet est de créer un site internet mettant en valeur l'impact économique, environnemental ainsi que l'histoire de la société OVHcloud.
+Ce site sera sous forme de vitrine et disposera également d'une traduction en anglais.
 
 
+## Choix de conception  
 
-## Getting started
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de OVHcloud (disponible [ici](https://www.ovhcloud.com/fr/)).
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Développement Site Web et Validation des pages
 
-## Add your files
+### Page d'accueil
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+**Auteur : Haddouchi Aylan**  
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/grp76291537/ovhcloud_sae.git
-git branch -M main
-git push -uf origin main
-```
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Faylanh45.github.io%2FOVHcloud%2Ffr%2Fservices.html)
 
-## Integrate with your tools
+<img src="doc/capture_1_W3C.png" style="width=400px" alt="capture ecran sur w3c">
 
-- [ ] [Set up project integrations](https://gitlab.com/grp76291537/ovhcloud_sae/-/settings/integrations)
+<img src="doc/capture_1_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
-## Collaborate with your team
+<!--  style="width=400px" ne fonctionne pas -->
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+### Page services
 
-## Test and Deploy
+**Auteur : Haddouchi Aylan**  
 
-Use the built-in continuous integration in GitLab.
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Faylanh45.github.io%2FOVHcloud%2Ffr%2Fservices.html)
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+<img src="doc/capture_1_W3C.png" style="width=400px" alt="capture ecran sur w3c">
 
-***
+<img src="doc/capture_1_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
-# Editing this README
+<!--  style="width=400px" ne fonctionne pas -->
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+### Présentation générale
 
-## Suggestions for a good README
+**Auteur : Nom Prénom**  
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
-## Name
-Choose a self-explaining name for your project.
+<br>
+<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+<br>
+<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+## Répartition du travail
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+### Planification - Diagramme de GANTT
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+- Foucault Nathan
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+### Recherches d'informations
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+- Foucault Nathan
+- Demling Alexandre
+- Haddouchi Aylan
+- Fanny Moustapha
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+### Rapport économique
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+- Foucault Nathan
+- Demling Alexandre
+- Haddouchi Aylan
+- Fanny Moustapha
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+### Développement site
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+- Haddouchi Aylan
+  - Page d’accueil
+  - "Template" de page (Navbar/Footer)
+  - Page présentation
+- Demling Alexandre
+  - Page histoire
+- Foucault Nathan
+  - Page economie
+- FHaddouchi Aylan
+  - Page services
+- Fanny Moustapha
+  - Page environnement
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+## Contributeurs
 
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+![capture d'écran de sur la contribution des membres du projet](doc/livrable2_contributors.png)
