@@ -28,6 +28,11 @@ body{
     color: #012E40;
 }
 
+.container img
+{
+    width: 100%;
+}
+
 .content h4
 {
     font-style: italic;
