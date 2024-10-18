@@ -65,9 +65,9 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Faylanh45.github.io%2FOVHcloud%2Ffr%2Feconomie.html)
 
-<img src="doc/capture_3_W3C.png" style="width=400px" alt="capture ecran sur w3c">
+<img src="doc/capture_4_W3C.png" style="width=400px" alt="capture ecran sur w3c">
 
-<img src="doc/capture_3_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
+<img src="doc/capture_4_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
 <!--  style="width=400px" ne fonctionne pas -->
 
@@ -75,13 +75,13 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 **Auteur : Fanny Moustapha**  
 
-Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Faylanh45.github.io%2FOVHcloud%2Ffr%2Fenvironnement.html)
 
 <br>
-<img src="doc/capture_4_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="doc/capture_5_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
-<img src="doc/capture_4_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="doc/capture_5_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
 
 ## Répartition du travail
 
@@ -112,10 +112,16 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
   - "Template" de page (Navbar/Footer)
   - Page services
   - Correction des pages pour W3C
+  - Hébergement Github et Gitlab (avec Nathan)
+
 - Demling Alexandre
   - Page histoire
+  - Hébergement Gitlab
+
 - Foucault Nathan
   - Page economie
+  - Hébergement Bitbucket
+
 - Fanny Moustapha
   - Page environnement
 
