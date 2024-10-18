@@ -107,8 +107,6 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 ### Développement site
 
-- Chacun responsable de sa page
-
 - Haddouchi Aylan
   - Page d’accueil
   - "Template" de page (Navbar/Footer)
