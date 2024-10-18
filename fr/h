@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link href="economie.css" rel="stylesheet">
+    <link href="../mes_styles_pages.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="histoire.css">
     <title>OVHcloud</title>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
-    
     <header>
+
       <div class="p-3 mb-2 bg-cyan text-white">
           <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid"></div>
@@ -33,10 +34,10 @@
                           <a id="1" class="nav-link" href="services.html">Services</a>
                       </li>
                       <li class="nav-item">
-                          <a id="1" class="nav-link active" aria-current="page" href="#">Economie</a>
+                          <a id="1" class="nav-link" href="economie.html">Economie</a>
                       </li>
                       <li class="nav-item">
-                          <a id="1" class="nav-link" href="histoire.html">Histoire</a>
+                          <a id="1" class="nav-link active" aria-current="page" href="#">Histoire</a>
                       </li>
                       <li class="nav-item">
                           <a id="1" class="nav-link" href="environnement.html">Environnement</a>
@@ -57,77 +58,52 @@
           </nav>
           </div>
         </header>
-<section id="economie"></section>
-
-<div class="spacer-top"></div>
-<div class="image-économie">
-  <section id="economie"></section>
-  <h1>Économie</h1>
-  <h4>Tout savoir sur l'économie d'OVHcloud</h4>
-  <div class="boutton">
-    <button onclick="location.href='#contexte_du_marche'">Voir le contexte du marché</button>
-    <button onclick="location.href='#chiffres'">Voir les chiffres & infos</button>
-    <button onclick="location.href='#emplois'">Voir l'emploi d'OVHcloud</button>
-  </div>
-</div>
-
-<section class="textual-content">
-  <section id="contexte_du_marche"></section>
-    <div class="content">
-      <div class="box1">
-        <div class="texte" >
-          <h1>Le contexte du marché </h1>
-            <p>OVHcloud se trouve en concurrence avec de grands acteurs dans ce domaine de l’informatique. Pour se démarquer, OVHcloud consacre une part significative de ses revenus à la recherche et développement. L'entreprise investit donc pour développer des solutions cloud adaptées aux besoins spécifiques des clients, également elle promeut l'utilisation de technologies open source, ce qui non seulement réduit les coûts, mais favorise également une communauté active d’utilisateurs et de développeurs. Ce qui lui permet ainsi de se positionner comme un très grand acteur dans le marché.</p>
-        </div>
-        <div class="image">
-          <img src="../pics/cloudcomputing.jpg" alt="Images pour le contexte du marché">
-        </div>
-      </div>
-    <section id="chiffres"></section>
-      <div class="box2">
-        <div class="image" >
-          <img src="../pics/diagramme_chiffre_d'affaire.jpg" alt="Images pour le contexte du marché">
-        </div>
-        <div class="texte">
-          <h1>Chiffres & Infos </h1>
-          <p>OVHcloud a réalisé un chiffre d'affaire d'environ 897 millions d'euros en 2023, en hausse de +13,4% par rapport à 2022. Environ 10% de son chiffre d'affaires est investi dans la recherche et le développement, ce qui équivaut à environ 89,7 millions d'euros en 2023. Ainsi les prévisions économique de l'entreprise indiquent une poursuite de cette croissance, avec des projections d'atteindre un chiffre d'affaire de 1 milliard d'euros d'ici quelques années.</p>
-        </div>
-      </div>
-    <section id="emplois"></section>
-      <div class="box3">
-        <div class="texte">
-          <h1>Emplois </h1>
-          <p>L'entreprise emploie environ 2000 personnes à travers le monde, avec des équipes dédiées à la recherche, au développement, à la vente et au support client. OVHcloud s'engage à promouvoir la diversité et l'inclusion au sein de ses équipes. L'entreprise cherche à créer un environnement de travail où chacun se sent valorisé, quel que soit son parcours. </p>
-        </div>
-        <div class="image">
-          <img src="../pics/images_emplois.jpg" alt="Images pour le contexte du marché">
-        </div>
-      </div>
-<div class="basrapport">
-<section class="textual-content_bas">
-  <div class="content_bas">
-    <section id="emplois2"></section>
-      <div class="box4">
-          <div class="image">
-            <img src="../pics/images_emplois.jpg" alt="Images pour le contexte du marché">
-          </div>
-          <div class="texte">
-            <h1>Emplois </h1>
-            <p>L'entreprise emploie environ 2000 personnes à travers le monde, avec des équipes dédiées à la recherche, au développement, à la vente et au support client. OVHcloud s'engage à promouvoir la diversité et l'inclusion au sein de ses équipes. L'entreprise cherche à créer un environnement de travail où chacun se sent valorisé, quel que soit son parcours. </p>
-          </div>
-          <div>
-          <a href="../rapport/Groupe7_HADDOUCHI_économie-1.pdf" class="rapport" download="Groupe7_HADDOUCHI_économie-1.pdf">Télécharger le rapport économique</a>
-            <br>
-            <br>
-          <embed src="../rapport/Groupe7_HADDOUCHI_économie-1.pdf" width="400" heigth="250" type="application/pdf" class="rapport">
-          </div>
-      </div>
+        <div class="spacer-top"></div>
+    <body>
+      <div class="image-histoire">
+      <h1>L'histoire d'OVHcloud</h1>
     </div>
-    </section>
-  </section>
-</div>
 
-<button onclick="location.href='#economie'" id="bouttonrevenir">Revenir au début</button>
+
+      <div class="timeline">
+
+        <div class="container left">
+            <div class="content">
+                <h2>Fondation et premières années</h2> <strong>1999 - 2005</strong>
+                <p>OVH a été fondée à Roubaix par Octave Klaba, un ingénieur d'origine polonaise, avec l'idée de fournir des solutions d'hébergement web à bas coût. L'entreprise se distingue dès ses débuts en fabriquant elle-même ses serveurs, ce qui lui permet de réduire ses coûts de manière significative et de proposer des tarifs compétitifs. OVH commence à se développer en France puis à l'échelle européenne, avec une forte croissance de sa clientèle.</p>
+            </div>
+        </div>
+    
+    
+        <div class="container right">
+            <div class="content">
+                <h2>Expansion européenne et internationale</h2> <strong>2006 - 2015</strong>
+                <p>Au fil des années, OVH continue de croître en France et dans d'autres pays européens. L’entreprise se diversifie en proposant une gamme de services plus étendue, notamment des serveurs dédiés, des services d'hébergement mutualisé, des domaines, et des solutions de téléphonie VoIP. En 2006, OVH atteint un jalon important en dépassant les 30 000 serveurs dans ses centres de données. L'entreprise ouvre également son premier centre de données en dehors de la France, au Canada (Beauharnois, Québec). Pendant cette période, OVH construit son propre réseau mondial de fibre optique, ce qui lui permet de contrôler davantage l'infrastructure et la connectivité de ses services.</p>
+            </div>
+        </div>
+   
+        <div class="container left">
+            <div class="content">
+                <h2>Transition vers le cloud et innovation</h2> <strong>2016 - 2019</strong>
+                <p>Avec l'essor du cloud computing à l'échelle mondiale, OVH décide d'investir massivement dans cette technologie. En 2016, la société lève 250 millions d'euros pour financer son expansion internationale et accélérer son développement dans le cloud. À cette époque, OVH revoit également sa stratégie en proposant des solutions de cloud public, privé et hybride pour concurrencer des géants comme Amazon Web Services (AWS), Microsoft Azure et Google Cloud. La société adopte le nom OVHcloud en 2019 pour mieux refléter son positionnement sur le marché du cloud. Elle se distingue notamment par sa maîtrise complète de la chaîne de production (du matériel aux services) et par son engagement pour la souveraineté numérique, garantissant à ses clients européens que leurs données sont hébergées en conformité avec les régulations européennes comme le RGPD.</p>
+            </div>
+        </div>
+
+        <div class="container right">
+            <div class="content">
+                <h2>Entrée en bourse et expansion mondiale</h2> <strong>2020 - Aujourd'hui</strong>
+                <p>
+                    OVHcloud, leader européen du cloud computing, a connu une phase cruciale depuis son entrée en bourse en 2020. Cette opération sur Euronext Paris visait à lever des fonds pour soutenir sa croissance et renforcer sa visibilité. Depuis lors, l’entreprise a poursuivi une expansion mondiale, ouvrant de nouveaux centres de données en Amérique du Nord, en Asie et en Europe, et réalisant des acquisitions stratégiques pour diversifier son offre. En nouant des partenariats technologiques, OVHcloud a intégré des solutions innovantes tout en mettant un accent particulier sur la durabilité et l’écologie. Grâce à cette stratégie, OVHcloud se positionne solidement comme un acteur clé sur le marché du cloud à l’échelle mondiale.</p>
+            </div>
+        </div>
+
+        <div class="container left">
+            <div class="content">
+                <h2>Stratégie actuelle et avenir</h2> <strong></strong>
+                <p>OVHcloud adopte une stratégie axée sur l’innovation, l’expansion internationale et la durabilité pour renforcer sa position de leader dans le cloud computing. Actuellement, l'entreprise investit dans l’ouverture de nouveaux centres de données à l'échelle mondiale, répondant à la demande croissante pour des solutions cloud sécurisées et performantes. En parallèle, OVHcloud mise sur des acquisitions stratégiques et des partenariats technologiques pour diversifier ses services, notamment dans des domaines comme l'intelligence artificielle et la cybersécurité. À l’avenir, OVHcloud prévoit de continuer à développer ses offres tout en intégrant des pratiques écologiques, affirmant ainsi son engagement envers une transformation numérique durable et en s’imposant comme un acteur incontournable sur le marché global du cloud.</p>
+            </div>
+        </div>
+</div>
 <div class="spacer"></div>
 <footer>
   <div class="réseaux">
@@ -187,7 +163,7 @@
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
   </div>
-  <h6>@ OVHcloud 2024 Groupe 7 - Nathan Foucault</h6><br>
+  <h6>@ OVHcloud 2024 Groupe 7 - Alexandre Demling</h6><br>
 </footer>
 </body>
 </html>
