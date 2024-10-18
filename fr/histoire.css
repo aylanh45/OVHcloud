@@ -41,8 +41,9 @@ body{
     box-shadow: 8px 5px 5px #1d5050;
 }
 .image-histoire>h1{
-    font-size:50px;
-    z-index: 5;
+    font-size:70px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
 }
 .image-histoire>h4{
     border-bottom: 1px solid white;

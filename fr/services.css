@@ -178,10 +178,11 @@ button:hover
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 }
 
-.image-services>h1
-{
-    font-size:50px;
-    z-index: 5;
+
+.image-services>h1{
+    font-size:70px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
 }
 
 .window-container
@@ -418,7 +419,7 @@ header a
 
 .spacer-top
 {
-    margin: 50px;
+    margin: 65px;
 }
 
 .navbar-nav .nav-item {
