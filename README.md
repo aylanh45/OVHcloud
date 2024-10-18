@@ -28,25 +28,25 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 **Auteur : Haddouchi Aylan**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Faylanh45.github.io%2FOVHcloud%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Faylanh45.github.io%2FOVHcloud%2Ffr%2Fservices.html)
 
 <img src="doc/capture_1_W3C.png" style="width=400px" alt="capture ecran sur w3c">
 
 <img src="doc/capture_1_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
 <!--  style="width=400px" ne fonctionne pas -->
+
 ### Page services
 
 **Auteur : Haddouchi Aylan**  
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Faylanh45.github.io%2FOVHcloud%2Ffr%2Fservices.html)
 
-<img src="doc/capture_2_W3C.png" style="width=400px" alt="capture ecran sur w3c">
+<img src="doc/capture_1_W3C.png" style="width=400px" alt="capture ecran sur w3c">
 
-<img src="doc/capture_2_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
+<img src="doc/capture_1_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
 <!--  style="width=400px" ne fonctionne pas -->
-
 
 ### Présentation générale
 
