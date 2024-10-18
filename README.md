@@ -113,14 +113,17 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
   - Page services
   - Correction des pages pour W3C
   - Hébergement Github et Gitlab (avec Nathan)
+  - Traduction en anglais
 
 - Demling Alexandre
   - Page histoire
   - Hébergement Gitlab
+  - Traduction en anglais
 
 - Foucault Nathan
   - Page economie
   - Hébergement Bitbucket
+  - Traduction en anglais
 
 - Fanny Moustapha
   - Page environnement
