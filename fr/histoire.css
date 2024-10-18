@@ -28,7 +28,14 @@ body{
     color: #012E40;
 }
 
-
+.content h4
+{
+    font-style: italic;
+    font-size: small;
+    padding-top: 3px;
+    text-align: center;
+    color: #012E40;
+}
 
 .image-histoire{
     display:flex;
