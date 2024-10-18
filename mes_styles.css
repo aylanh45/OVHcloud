@@ -42,12 +42,12 @@ header
 .nav-link
 {
     font-size: larger;
+    margin-top: 30px;
 }
 
 
 .nav-item
 {
-    margin-top: 3%;
     margin-left: 3%;
     margin-right: 15px;
 }

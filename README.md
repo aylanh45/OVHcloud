@@ -112,7 +112,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
   - "Template" de page (Navbar/Footer)
   - Page services
   - Correction des pages pour W3C
-  - Hébergement Github et Gitlab (avec Nathan)
+  - Hébergement Github, Bitbucket et Gitlab 
   - Traduction en anglais
 
 - Demling Alexandre
