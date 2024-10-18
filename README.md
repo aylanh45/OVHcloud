@@ -70,23 +70,26 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 <img src="doc/capture_3_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
 <!--  style="width=400px" ne fonctionne pas -->
-### Présentation générale
 
-**Auteur : Nom Prénom**  
+### Page environnement
+
+**Auteur : Fanny Moustapha**  
 
 Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
 <br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="doc/capture_4_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
-<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="doc/capture_4_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
 
 ## Répartition du travail
 
 ### Planification - Diagramme de GANTT
 
 - Foucault Nathan
+- Demling Alexandre
+- Haddouchi Aylan
 
 ### Recherches d'informations
 
@@ -107,13 +110,12 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 - Haddouchi Aylan
   - Page d’accueil
   - "Template" de page (Navbar/Footer)
-  - Page présentation
+  - Page services
+  - Correction des pages pour W3C
 - Demling Alexandre
   - Page histoire
 - Foucault Nathan
   - Page economie
-- FHaddouchi Aylan
-  - Page services
 - Fanny Moustapha
   - Page environnement
 
