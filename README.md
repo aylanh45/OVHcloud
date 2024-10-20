@@ -127,6 +127,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 - Fanny Moustapha
   - Page environnement
+  - Traduction en anglais
 
 ## Contributeurs
 
